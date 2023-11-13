@@ -9,9 +9,15 @@
   z-index: 1;
 }
 
-@media (max-width:720px) {
+@media (max-width: 720px) {
   .cover__title {
-    font-size: clamp(32px, 13vw, 72px);
-    line-height: 1.09;  }
+    font-size: clamp(32px, 11vw, 72px);
+    line-height: 1.09;
+  }
+}
 
+@media (max-width: 320px) {
+  .cover__title {
+    font-size: 32px;
+  }
 }
